@@ -1,6 +1,6 @@
-variable "site_recovery_replication_policys" {
+variable "site_recovery_replication_policies" {
   description = <<EOT
-Map of site_recovery_replication_policys, attributes below
+Map of site_recovery_replication_policies, attributes below
 Required:
     - application_consistent_snapshot_frequency_in_minutes
     - name

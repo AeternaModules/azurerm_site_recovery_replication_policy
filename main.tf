@@ -1,5 +1,5 @@
-resource "azurerm_site_recovery_replication_policy" "site_recovery_replication_policys" {
-  for_each = var.site_recovery_replication_policys
+resource "azurerm_site_recovery_replication_policy" "site_recovery_replication_policies" {
+  for_each = var.site_recovery_replication_policies
 
   application_consistent_snapshot_frequency_in_minutes = each.value.application_consistent_snapshot_frequency_in_minutes
   name                                                 = each.value.name
